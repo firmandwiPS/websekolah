@@ -42,4 +42,9 @@ class AdminController extends Controller
     {
         return view('halaman');
     }
+
+    function detail()
+    {
+        return view('detail');
+    }
 }

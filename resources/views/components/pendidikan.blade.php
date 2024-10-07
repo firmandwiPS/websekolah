@@ -37,7 +37,9 @@
         </div>
 
         <div class="mt-12">
-    <a href="https://akademik.smkscibitung1.sch.id/" class="relative bg-gradient-to-r from-orange-400 to-orange-600 text-white px-8 py-4 rounded-full shadow-lg transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-2 hover:shadow-2xl hover:from-orange-600 hover:to-orange-400 active:scale-90 active:shadow-none active:bg-gradient-to-r active:from-orange-500 active:to-orange-300 focus:outline-none focus:ring-4 focus:ring-orange-300">
+
+            
+    <a href="/admin/detail" class="relative bg-gradient-to-r from-orange-400 to-orange-600 text-white px-8 py-4 rounded-full shadow-lg transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-2 hover:shadow-2xl hover:from-orange-600 hover:to-orange-400 active:scale-90 active:shadow-none active:bg-gradient-to-r active:from-orange-500 active:to-orange-300 focus:outline-none focus:ring-4 focus:ring-orange-300">
         Pelajari Lebih Lanjut
     </a>
      </div>

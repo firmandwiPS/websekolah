@@ -62,7 +62,7 @@
   
         <!-- Call to Action -->
         <div class="mt-12">
-          <a href="https://smkscibitung1.sch.id/web/" class="bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-500 hover:to-orange-600 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg transition-transform transform hover:scale-105 duration-300 animate__animated animate__fadeIn" data-aos="fade-up" data-aos-delay="500">Hubungi Kami</a>
+          <a href="#contact" class="bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-500 hover:to-orange-600 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg transition-transform transform hover:scale-105 duration-300 animate__animated animate__fadeIn" data-aos="fade-up" data-aos-delay="500">Hubungi Kami</a>
         </div>
       </div>
     </section>

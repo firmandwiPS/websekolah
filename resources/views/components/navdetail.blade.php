@@ -30,7 +30,18 @@
             </a>
             @endif
 
-            
+            <!-- Dropdown Menu (Desktop) -->
+            <div class="relative group">
+                <a href="#" class="text-lg font-medium relative group transition duration-300">Program Pendidikan
+                    <span class="absolute left-0 -bottom-1 h-1 w-full bg-yellow-300 transform scale-x-0 group-hover:scale-x-100 origin-left transition duration-300 ease-out"></span>
+                </a>
+                <div class="absolute left-0 mt-2 opacity-0 transform scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 ease-in-out bg-white text-black rounded-lg shadow-lg w-56 py-2 z-40">
+                    <a href="#teknik-mekanik-industri" class="block px-4 py-3 hover:bg-yellow-200 transition duration-300">Teknik Mekanik Industri</a>
+                    <a href="#sistem-informasi-jaringan" class="block px-4 py-3 hover:bg-yellow-200 transition duration-300">Sistem Informasi Jaringan dan Aplikasi</a>
+                    <a href="#manajemen-logistik" class="block px-4 py-3 hover:bg-yellow-200 transition duration-300">Manajemen Logistik</a>
+                    <a href="#perbankan-syariah" class="block px-4 py-3 hover:bg-yellow-200 transition duration-300">Perbankan Syariah</a>
+                </div>
+            </div>
 
             <a href="/logout" class="group flex items-center justify-start w-11 h-11 bg-red-600 rounded-full cursor-pointer relative overflow-hidden transition-all duration-200 shadow-lg hover:w-32 hover:rounded-lg active:translate-x-1 active:translate-y-1">
                 <div class="flex items-center justify-center w-full transition-all duration-300 group-hover:justify-start group-hover:px-3">
@@ -59,7 +70,15 @@
         </a>
         @endif
 
-     
+        <div class="relative">
+            <button id="mobile-dropdown-btn" class="block text-white bg-orange-500 hover:bg-orange-700 transition duration-300 p-2 rounded w-full text-left" aria-label="Toggle About School">Tentang Sekolah</button>
+            <div id="mobile-dropdown" class="hidden mt-2 bg-white text-black rounded-lg shadow-lg py-2">
+                <a href="#teknik-mekanik-industri" class="block px-4 py-3 hover:bg-yellow-200 transition duration-300">Teknik Mekanik Industri</a>
+                <a href="#sistem-informasi-jaringan" class="block px-4 py-3 hover:bg-yellow-200 transition duration-300">Sistem Informasi Jaringan dan Aplikasi</a>
+                <a href="#manajemen-logistik" class="block px-4 py-3 hover:bg-yellow-200 transition duration-300">Manajemen Logistik</a>
+                <a href="#perbankan-syariah" class="block px-4 py-3 hover:bg-yellow-200 transition duration-300">Perbankan Syariah</a>
+            </div>
+        </div>
 
         <a href="/logout" class="block text-white bg-red-500 hover:bg-red-700 transition duration-300 p-2 rounded">Logout</a>
     </div>
