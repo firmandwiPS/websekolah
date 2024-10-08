@@ -13,7 +13,16 @@
 </head>
 
 <body class="bg-gradient-to-r from-orange-100 to-orange-200">
-    <x-navdetail></x-navdetail>
+
+
+    
+    <x-navdetailguru></x-navdetailguru>
+    
+    
+    
+
+
+
     <x-isipendidikan></x-isipendidikan>
 </body>
 </html>

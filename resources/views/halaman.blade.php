@@ -43,7 +43,7 @@
     <x-about></x-about>
 
     
-    <x-pendidikan></x-pendidikan>
+    <x-pendidikanhalaman></x-pendidikanhalaman>
 
     <x-fasilitas></x-fasilitas>
     

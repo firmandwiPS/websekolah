@@ -23,13 +23,18 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin/siswa/pembelajaran', [AdminController::class, "pembelajaransiswa"]);
     Route::get('/admin/guru/pembelajaran', [AdminController::class, "pembelajaranguru"]);
     Route::get('/admin/siswa/halamansiswa',[AdminController::class, 'halamansiswa']);
-    Route::get('/admin/detail',[AdminController::class, 'detail']);
     Route::get('/admin/siswa',[AdminController::class, 'siswa']);
     
+    
+    Route::get('/admin/siswa/detail',[AdminController::class, 'detailsiswa']);
+    Route::get('/admin/guru/detail',[AdminController::class, 'detailguru']);
     
     
     
     Route::get('/logout',[SesiController::class, 'logout']);
 });
+
+
+Route::get('/halaman/detail',[AdminController::class, 'detailhalaman']);
 Route::get('/halaman',[AdminController::class, 'halaman']);
 

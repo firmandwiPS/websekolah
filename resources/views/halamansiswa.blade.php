@@ -46,7 +46,7 @@
     <x-about></x-about>
 
     
-    <x-pendidikan></x-pendidikan>
+    <x-pendidikansiswa></x-pendidikansiswa>
 
     <x-fasilitas></x-fasilitas>
     <x-eskul></x-ekskul>

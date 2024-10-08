@@ -43,8 +43,16 @@ class AdminController extends Controller
         return view('halaman');
     }
 
-    function detail()
+    function detailguru()
     {
-        return view('detail');
+        return view('detailguru');
+    }
+    function detailsiswa()
+    {
+        return view('detailsiswa');
+    }
+    function detailhalaman()
+    {
+        return view('detailhalaman');
     }
 }

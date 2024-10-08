@@ -45,7 +45,7 @@
 
     <x-about></x-about>
 
-    <x-pendidikan></x-pendidikan>
+    <x-pendidikanguru></x-pendidikanguru>
 
     <x-fasilitas></x-fasilitas>
 
